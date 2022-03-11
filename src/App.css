@@ -1,0 +1,558 @@
+body div.body{
+  font-family : lionel;
+  background-color: #161618;
+}
+
+.image-main {
+  height: calc(100vh - 4em);
+  width : 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: lightgray;
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  background: darkgray;
+}
+div.body .nb-icon{
+  background: white;
+  border-radius: 50%;
+  color: #404768 !important;
+  height: 32px;
+  /* margin: 4px 0px 4px 8px; */
+  padding: 1px 4px 4px 4px;
+  line-height: 0px;
+}
+.mr-4{
+  margin-right: 2rem !important;
+}
+div.body .discord-btn{
+  margin: -6px 0px -6px 30px;
+}
+div.body .discord-btn button{
+  background: #f7941d;
+  border: none;
+}
+div.body div.dashboard{
+  position: relative;
+}
+
+div.body div.launch-board{
+  position: absolute;
+  top: 2rem;
+  transform: translate(-50%, 0);
+  left: 50%;
+  color: #404768;
+  background: rgba(255, 255, 255, .6);
+  width: 40%;
+  min-width: 400px;
+  text-align: center;
+  font-family: john;
+  padding : 1% 15px 1% 15px;
+}
+
+div.body div.launch-board div.clock-listgroup{
+  border-radius: 0px;
+  padding: 15px 2px;
+  box-shadow: inset 0px 0px 1px 2px #404768;
+  background: rgba(255, 255, 255, .6);
+}
+
+div.body div.launch-board div.clock-listgroupitem{
+  border-width: 2px;
+  border-color: #404768;
+  border-top: 0px;
+  width: 25%;
+  background: transparent;
+  border-bottom: 0px;
+}
+div.body div.launch-board div.clock-listgroupitem:first-child{
+  border-left: 0px;
+}
+div.body div.launch-board div.clock-listgroupitem:last-child{
+  border-right: 0px;
+}
+
+div.body div.launch-board div.clock-listgroupitem p.number{
+  color: #404768;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  background: transparent;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+div.body div.launch-board div.clock-listgroupitem p.unit{
+  color: #404768;
+  margin-bottom: 0rem;
+  background: transparent;
+  /* font-weight: bolder; */
+}
+
+.text-orange {
+  color: #f7941d;
+}
+
+.text-white{
+  color: white;
+}
+
+.about-container img{
+  width: 100%;;
+}
+.feature-class img{
+  width: 100%;;
+}
+.about-container .about-left {
+  margin-top: 100px;
+}
+.about-container .about-right {
+  padding-left: 40px;
+  margin-top: 60px;
+  color: white;
+}
+.about-container .about-right .title-color {
+  color: #F79420!important;
+  margin-top: -9px;
+
+}
+.default-color {
+  color: #F79420!important;
+}
+.white-color {
+  color: white!important;
+}
+.t-ag-c {
+  text-align: center;
+}
+.about-container .about-right .detail {
+  float: left;
+}
+.about-container .about-right .ml-10 {
+  margin-left: 10px;
+}
+.about-container .about-right .top-40 {
+  margin-top: 30px;
+}
+.font-xxxl {
+  font-size: xxx-large;
+}
+.font-xxl {
+  font-size: xx-large;
+}
+.font-xl {
+  font-size: x-large;
+}
+.font-lgr {
+  font-size: larger;
+}
+.font-lg {
+  font-size: large;
+}
+.font-un {
+  font-size: initial;
+}
+.font-sm {
+  font-size: small;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.about-container .about-explain {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  background-color: #95D600;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.feature-class .img-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.vip-room, .our-team {
+  background-color: #23262F;
+}
+.vip-room .vip-room-register-btn {
+  background-size: 100% 100%;
+  padding: 8px 24px;;
+  transition: .4s all;
+}
+
+.our-team-title {
+  font-weight: bold;
+  background: -webkit-linear-gradient(315deg, #21beac, #71ce36 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.our-team-title-divider {
+  background-image: linear-gradient(45deg, #21beac, #71ce36 80%);
+  width: 6rem;
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+}
+.our-team .our-team-members {
+  --bs-gutter-x: 3rem;
+}
+.our-team .member-item {
+  transition: .4s all;
+}
+.our-team .member-item:hover {
+  transition: .4s all;
+  box-shadow: 0px 0px 10px 8px #24222256;
+  background: #404768;
+  border-radius: 8px;
+  color: black;
+  transform: translate(0%, -3%);
+}
+.our-team .team-member-nav-icon {
+  background: white;
+  border-radius: 50%;
+  color: black !important;
+  padding: 1px 4px 4px 4px;
+  font-size: 12px;
+}
+.our-team .team-member-nav-icon:hover {
+  transition: .4s all;
+  background: #aaa;
+}
+.react-multi-carousel-list .react-multiple-carousel__arrow {
+  transition: .4s all;
+  height: 100%;
+  width: 100px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1),  rgba(0, 0, 0, 0.1),  rgba(255, 255, 255, 0));
+  border-radius: 0px;
+  opacity: 0;
+}
+.react-multi-carousel-list .react-multiple-carousel__arrow:hover {
+  transition: .4s all;
+  height: 100%;
+  width: 100px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1),  rgba(0, 0, 0, 0.1),  rgba(255, 255, 255, 0));
+  border-radius: 0px;
+  opacity: 1;
+}
+
+div.body div#roadmap .white-divider{
+  display: block;
+  height: 2px;
+  background: white;
+  width: 6rem;
+  margin: 0px auto;
+}
+
+div.body div#roadmap div.roadmapstep{
+  position: relative;
+}
+
+div.body div#roadmap span.left-align-divider{
+  background: #f7941d;
+  width: 6rem;
+  height: 2px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+div.body div#futureplan span.underline{
+  width: 10rem;
+  height: 2px;
+  background: #f7941d;
+  display: inline-block;
+  margin-left: 1rem;
+}
+.future-plan-info {
+  position: relative;
+}
+.future-plan-info span {
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+}
+.future-plan-info .plan1 {
+  transform: translate(-50%, -50%);
+  top: 22%;
+  left: 17%;
+  width: 25%;
+}
+.future-plan-info .plan2 {
+  transform: translate(50%, -50%);
+  top: 22%;
+  right: 17%;
+  width: 25%;
+}
+.future-plan-info .plan3 {
+  transform: translate(-50%, 50%);
+  bottom: 22%;
+  left: 17%;
+  width: 25%;
+}
+.future-plan-info .plan4 {
+  transform: translate(50%, 50%);
+  bottom: 22%;
+  right: 17%;
+  width: 25%;
+}
+.future-plan-info .plan-desc {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  font-weight: initial;
+}
+.future-plan-info .plan-title {
+  transform: translate(-50%, -50%);
+  top: 44%;
+  left: 50%;
+  width: 50%;
+}
+div.body div#breakdown div.breakdown-header{
+  display: flex;
+}
+div.body div#breakdown div.breakdown-header div.gradient-border{
+  margin: 0px auto;
+  padding: 2px;
+  background: linear-gradient(to right, #278e99, #6b9032);
+  position: relative;
+}
+div.body div#breakdown div.breakdown-header div.gradient-border h1{
+  margin: 0px;
+  padding: 20px 50px;
+  display: inline-block;
+  background: #404768;
+}
+div.body div#breakdown span.circle-1{
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  background-color: #19bcb9;
+  border-radius: 50%;
+  top: -15px;
+  left: 20px;
+}
+div.body div#breakdown span.circle-2{
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  background-color: #95d600;
+  border-radius: 50%;
+  bottom: -8px;
+  right: 10px;
+}
+div.body div#breakdown div.item{
+  position: relative;
+  transition: 0.4s all;
+}
+div.body div#breakdown div.item:hover{
+  transform: translate(8px, 0);
+}
+
+div.body div#breakdown span.breakdown-title{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 12.5%;
+  color: white;
+  font-weight: bolder;
+}
+div.body div#breakdown span.breakdown-detail{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 53%;
+  color: white;
+}
+
+.roadmap-text {
+  margin-left:80px;
+  width: calc(100% - 200px);
+}
+
+.header-btn {
+  margin-left : 3rem !important;
+  text-align: center;
+  color: white !important;
+}
+
+.header-navbar-nav {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
+
+@media screen and (min-width:1400px) {
+  .font-xxl {
+    font-size: xxx-large;
+  }
+  .font-xl {
+    font-size: xx-large;
+  }
+  .font-lgr {
+    font-size: x-large;
+  }
+  .font-lg {
+    font-size: larger;
+  }
+  .font-un {
+    font-size: large;
+  }
+  .font-sm {
+    font-size: initial;
+  }
+}
+@media screen and (max-width:1200px) {
+  .font-xxxl {
+    font-size: xx-large;
+  }
+  .font-xxl {
+    font-size: x-large;
+  }
+  .font-xl {
+    font-size: larger;
+  }
+  .font-lgr {
+    font-size: large;
+  }
+  .font-lg {
+    font-size: initial;
+  }
+  .font-un {
+    font-size: small;
+  }
+  .font-sm {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width:992px) {
+  .future-plan-info .plan-desc {
+    font-size: 13px;
+  }
+  .font-xxxl {
+    font-size: x-large;
+  }
+  .font-xxl {
+    font-size: larger;
+  }
+  .font-xl {
+    font-size: large;
+  }
+  .font-lgr {
+    font-size: initial;
+  }
+  .font-lg {
+    font-size: small;
+  }
+  .font-un {
+    font-size: x-small;
+  }
+  .font-sm {
+    font-size: xx-small;
+  }
+  div.body div#breakdown div.breakdown-header div.gradient-border h1{
+    padding: 18px 40px;
+  }
+  div.body div#breakdown span.circle-1{
+    width: 24px;
+    height: 24px;
+    top: -15px;
+    left: 15px;
+  }
+  div.body div#breakdown span.circle-2{
+    width: 18px;
+    height: 18px;
+    bottom: -9px;
+    right: 13px;
+  }
+  div.body div#feature > div.container > div.row > div.mt-5{
+    margin-top: 0.5rem !important;
+  }
+  div.body div#team > div.container{
+    margin-top: 2rem !important;
+  }
+}
+@media screen and (max-width:768px) {
+  .future-plan-info .plan-desc {
+    font-size: 11px;
+  }
+  .font-xxxl {
+    font-size: 35px;
+  }
+  .font-xxl {
+    font-size: 30px;
+  }
+  .font-xl {
+    font-size: initial;
+  }
+  .font-lgr {
+    font-size: small;
+  }
+  .font-lg {
+    font-size: x-small;
+  }
+  .font-un {
+    font-size: xx-small;
+  }
+  .roadmap-text {
+    margin-left: 0;
+    width: 100%;
+  }
+  div.body div#breakdown span.breakdown-title.font-lgr{
+    font-size: x-small;
+  }
+  div.body div#breakdown div.breakdown-header div.gradient-border h1{
+    padding: 15px 30px;
+  }
+  div.body div#breakdown span.circle-1{
+    width: 20px;
+    height: 20px;
+    top: -12px;
+    left: 10px;
+  }
+  div.body div#breakdown span.circle-2{
+    width: 12px;
+    height: 12px;
+    bottom: -6px;
+    right: 11px;
+  }
+  .image-main {
+    height: calc(55vh - 4em);    
+  }
+}
+@media screen and (max-width:520px) {
+  .future-plan-info .plan-desc {
+    font-size: 8px;
+  } 
+  div.body div#breakdown span.breakdown-title.font-lgr{
+    font-size: xx-small;
+  }
+  div.body div#breakdown span.breakdown-title.font-xl{
+    font-size: small;
+  }
+}
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label.Mui-disabled{
+  color :rgba(255, 255, 255, .6) !important;
+}

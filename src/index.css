@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'rochester';
+  src: url(./assets/font/static/DancingScript-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'john';
+  src : url(./assets/font/Fredoka_One/FredokaOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'lionel';
+  src : url(./assets/font/Varela_Round/VarelaRound-Regular.ttf) format('truetype');
+}
